@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hamza Atouif</title>
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+       .contact-form {
+  margin-top: 50px;
+  background: #f0f0f0;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+       body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+            color: #333;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;S
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+        .bio {
+      font-size: 14Spx;
+      color: #444;
+      margin-bottom: 20px;
+      line-height: 1.6;
+      padding: 0 15px;
+        }
+        h1 {
+            margin: 10px 0;
+            font-size: 28px;
+            font-weight: 600;
+            color: #222;
+            letter-spacing: 0.5px;
+        }
+
+        .title {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .info p {
+            margin: 10px 0;
+            font-size: 16px;
+        }
+
+        .info i {
+            margin-right: 10px;
+            color: #555;
+        }
+
+        .socials {
+            margin-top: 20px;
+        }
+
+        .socials a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #555;
+            transition: color 0.3s;
+            text-decoration: none;
+        }
+
+        .socials a:hover i {
+            opacity: 0.8;
+            transform: scaleP(1.1);
+        }
+        .socials a i {
+            transition: transform 0.3s, color 0.3s;
+        }
+        .socials a[href*="facebook.com"] i {
+            color: #1877f2;
+        }
+        .socials a[href*="instagram.com"] i {
+            color: #E1306C;
+        }
+        .socials a[href*="github.com"] i {
+            color: #333;
+        }
+        .socials a[href*="youtube.com"] i {
+            color: #FF0000;
+        }
+        .card {
+            background: #f0f0f0;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="profile">
+                <img src="yo.jpg" alt="my Photo" class="profile-photo">
+                <h1>Hamza Atouif</h1>
+                <p class="title">Engineering Student | Web Developer | Junior Trader</p>
+                <p class="bio">
+                    Hi, It's Hamza a software engineering student who loves building things — whether it’s interactive web apps, indie games, or secure systems. I’m also really into cybersecurity and enjoy exploring how things break (ethically, of course).
+                    Outside of coding, I trade crypto, forex, and gold as a junior trader. I’m fascinated by market dynamics and constantly learning how to think more like a strategist.
+                    I believe in continuous growth, hands-on learning, and staying curious — whether it’s in code, security, or markets.
+                </p>
+
+                <div class="info">
+                    <p><i class="fas fa-envelope"></i> hamzaatouif2021@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +212 635918226</p>
+                    <p><i class="fas fa-map-marker-alt"></i> laayoune, Morocco</p>
+                </div>
+
+                <div class="socials">
+                    <a href="https://www.facebook.com/share/15pLrWJVUh/?mibextid=wwXIfr" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/g7x__a7t?igsh=dG56b3F1Y2ZycDNp&utm_source=qr" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://github.com/hamzaatouif" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://youtube.com/@hamza.atouif?si=__j7Z4E_cnc4tAVh" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="contact-form"><div class="contact-form">
+  <h2>Contact Me</h2>
+  <form action="https://formspree.io/f/mblynwgg" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+</body>
+</html>
